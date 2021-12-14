@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<launch>
+    <node name="kalman_filter_2d" pkg="kcy_sensor_fusion" type="kalman_filter_2d_image.py" output="screen" respawn="false" />
+</launch>
